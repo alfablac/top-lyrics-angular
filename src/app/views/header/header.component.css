@@ -1,0 +1,11 @@
+.navbar-brand-header{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+.navbar-brand{
+    max-width: 100%;
+}

@@ -1,0 +1,12 @@
+.example-card {
+    max-width: 100px;
+}
+
+.example-header-image {
+    background-size: cover;
+}
+
+.card-content {
+    padding: 10px;
+    font-size: 15px;
+}

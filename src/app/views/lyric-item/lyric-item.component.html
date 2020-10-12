@@ -1,0 +1,10 @@
+<mat-card class="mat-card-live">
+    <mat-card-header>
+        <div mat-card-avatar class="example-header-image" style="background-image: url({{artist.pic_small}});" > </div>
+        <mat-card-title><a [routerLink]="['/artist', artist.url]">{{artist.name}}{{artist.desc}}</a></mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+        <mat-card-title class="card-content"><a [routerLink]="['/lyric', lyric.id]">{{lyric.name}}{{lyric.desc}}</a></mat-card-title>
+    </mat-card-content>
+</mat-card> 

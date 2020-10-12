@@ -1,0 +1,12 @@
+<!-- <mat-card-content style="text-align: center; margin-bottom: 70px;">
+    <label for="site-search">Search the site: </label>
+    <input [(ngModel)]="moviesFilter" (ngModelChange)="onMoviesFilter($event)" name="moviesFilter" type="text"
+        placeholder="Buscar filmes...">
+</mat-card-content> -->
+<mat-card-content>
+    <div fxLayout="row wrap" fxLayoutAlign="start center">
+        <ng-container *ngFor='let lyric of lyrics'>
+            <app-lyric-item style="padding:20px" class="mat-card-live" fxFlex="0 1 calc(33.3% - 11px)" [lyric]=lyric [artist]=lyric.art></app-lyric-item>
+        </ng-container>
+    </div>
+</mat-card-content>
